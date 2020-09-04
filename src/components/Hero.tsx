@@ -4,7 +4,7 @@ export function Hero() {
       <div className="w-4/12 h-full bg-black">
         <div className="flex flex-col items-center pt-20">
           <i className="text-5xl text-yellow fas fa-hammer" />
-          <h1 className="text-3xl tracking-wider text-white ">Bruno Perito</h1>
+          <h1 className="text-3xl tracking-wider text-white ">Gustavo Silva</h1>
           <p className="w-8/12 text-sm tracking-wider text-center text-white text-md">
             MARIDO DE ALUGUEL QUALIFICADO
           </p>

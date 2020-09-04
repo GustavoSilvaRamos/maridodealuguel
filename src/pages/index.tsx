@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Pagina de Receitas</title>
+        <title>Marido de Aluguel</title>
       </Head>
       <div>
         <div className="min-h-screen">
