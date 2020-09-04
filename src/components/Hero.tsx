@@ -30,10 +30,10 @@ export function Hero() {
           </p>
         </div>
         <div className="flex flex-col items-center pt-20 pb-3">
-          <p className="text-xl tracking-wider text-white text-gray-500">
+          <p className="text-xl tracking-wider text-gray-500">
             Tel.: 55 24 9845 6125
           </p>
-          <p className="p-2 text-sm tracking-wide text-white text-gray-500">
+          <p className="p-2 text-sm tracking-wide text-gray-500">
             Desenvolvido Por{' '}
             <span className="underline cursor-pointer">Webode</span>
           </p>
@@ -47,7 +47,7 @@ export function Hero() {
             competente
             <br /> para sua casa
           </h1>
-          <p className="pt-20 tracking-wider text-center text-white ">
+          <p className="pt-20 tracking-wider text-center text-white">
             MARIDO DE ALUGUEL SEDIADO NO RIO DE JANEIRO
           </p>
         </div>
