@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <div className="flex bg-black ">
-      <div className="w-3/12 h-full bg-black">
+      <div className="w-4/12 h-full bg-black">
         <div className="flex flex-col items-center pt-20">
           <i className="text-5xl text-yellow fas fa-hammer" />
           <h1 className="text-3xl tracking-wider text-white ">Bruno Perito</h1>
@@ -42,7 +42,7 @@ export function Hero() {
       <div className="relative items-center w-full fundo">
         <div className="absolute top-0 left-0 z-10 w-full h-full bg-black opacity-75" />
         <div className="relative z-20 flex flex-col">
-          <h1 className="pt-20 text-6xl font-light tracking-wider text-center text-white">
+          <h1 className="pt-20 text-6xl font-thin tracking-wider text-center text-white">
             Ajuda <br />
             competente
             <br /> para sua casa
