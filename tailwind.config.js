@@ -14,6 +14,7 @@ module.exports = {
       black: '#000',
       white: '#fff',
       yellow: '#ffdb58',
+      goldenrod: '#DAA520',
       primary: {
         100: '#D4E4FF',
         200: '#A9C7FF',

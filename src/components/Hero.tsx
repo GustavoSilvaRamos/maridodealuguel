@@ -1,31 +1,31 @@
 export function Hero() {
   return (
-    <div className="flex bg-black ">
+    <div className="flex min-h-screen bg-black ">
       <div className="w-4/12 h-full bg-black">
         <div className="flex flex-col items-center pt-20">
-          <i className="text-5xl text-yellow fas fa-hammer" />
+          <i className="text-5xl text-goldenrod fas fa-hammer" />
           <h1 className="text-3xl tracking-wider text-white ">Gustavo Silva</h1>
           <p className="w-8/12 text-sm tracking-wider text-center text-white text-md">
             MARIDO DE ALUGUEL QUALIFICADO
           </p>
         </div>
-        <div className="flex flex-col items-center pt-20 pb-8 leading-8">
-          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow ">
+        <div className="flex flex-col items-center pt-20 leading-8">
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-goldenrod ">
             Página Inicial
           </p>
-          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-goldenrod">
             Serviços
           </p>
-          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-goldenrod">
             Referências
           </p>
-          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-goldenrod">
             Sobre Mim
           </p>
-          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-goldenrod">
             Lista de Preços
           </p>
-          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-goldenrod">
             Contate-me
           </p>
         </div>
@@ -33,7 +33,7 @@ export function Hero() {
           <p className="text-xl tracking-wider text-gray-500">
             Tel.: 55 24 9845 6125
           </p>
-          <p className="p-2 text-sm tracking-wide text-gray-500">
+          <p className="text-sm tracking-wide text-gray-500 ">
             Desenvolvido Por{' '}
             <span className="underline cursor-pointer">Webode</span>
           </p>
