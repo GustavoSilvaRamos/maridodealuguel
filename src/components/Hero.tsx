@@ -1,0 +1,57 @@
+export function Hero() {
+  return (
+    <div className="flex bg-black ">
+      <div className="w-3/12 h-full bg-black">
+        <div className="flex flex-col items-center pt-20">
+          <i className="text-5xl text-yellow fas fa-hammer" />
+          <h1 className="text-3xl tracking-wider text-white ">Bruno Perito</h1>
+          <p className="w-8/12 text-sm tracking-wider text-center text-white text-md">
+            MARIDO DE ALUGUEL QUALIFICADO
+          </p>
+        </div>
+        <div className="flex flex-col items-center pt-20 pb-8 leading-8">
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow ">
+            Página Inicial
+          </p>
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+            Serviços
+          </p>
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+            Referências
+          </p>
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+            Sobre Mim
+          </p>
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+            Lista de Preços
+          </p>
+          <p className="text-sm font-semibold tracking-wider text-white cursor-pointer hover:text-yellow">
+            Contate-me
+          </p>
+        </div>
+        <div className="flex flex-col items-center pt-20 pb-3">
+          <p className="text-xl tracking-wider text-white text-gray-500">
+            Tel.: 55 24 9845 6125
+          </p>
+          <p className="p-2 text-sm tracking-wide text-white text-gray-500">
+            Desenvolvido Por{' '}
+            <span className="underline cursor-pointer">Webode</span>
+          </p>
+        </div>
+      </div>
+      <div className="relative items-center w-full fundo">
+        <div className="absolute top-0 left-0 z-10 w-full h-full bg-black opacity-75" />
+        <div className="relative z-20 flex flex-col">
+          <h1 className="pt-20 text-6xl font-light tracking-wider text-center text-white">
+            Ajuda <br />
+            competente
+            <br /> para sua casa
+          </h1>
+          <p className="pt-20 tracking-wider text-center text-white ">
+            MARIDO DE ALUGUEL SEDIADO NO RIO DE JANEIRO
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+}
