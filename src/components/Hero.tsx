@@ -35,7 +35,7 @@ export function Hero() {
           </p>
           <p className="text-sm tracking-wide text-gray-500 ">
             Desenvolvido Por{' '}
-            <span className="underline cursor-pointer">Webode</span>
+            <span className="underline cursor-pointer">Gustavo</span>
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@ export function Hero() {
             <br /> para sua casa
           </h1>
           <p className="pt-20 tracking-wider text-center text-white">
-            MARIDO DE ALUGUEL SEDIADO NO RIO DE JANEIRO
+            MARIDO DE ALUGUEL SEDIADO EM SÃO PAULO
           </p>
         </div>
       </div>
